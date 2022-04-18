@@ -16,9 +16,6 @@ for (int i = 1; i <= 10; i++){
 out.print("</tr>");
 out.print("</table>");
 
-
-
-
 %>
 </body>
 </html>

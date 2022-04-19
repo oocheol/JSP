@@ -68,7 +68,7 @@
 		</tr>
 		<tr>
 		<td>ÇÐÁ¡ : </td>
-		<td><%=score %></td>
+		<td><strong><%=score %></strong></td>
 		</tr>
 		</table>
 	</form>

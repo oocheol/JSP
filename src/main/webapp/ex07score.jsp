@@ -24,18 +24,18 @@
 	
 	int total = javaS + webS + iotS + androidS;
 	int avg = total/4;
-	String score = "";
+	String grade = "";
 	
 	if (avg >= 95){
-		score = "A+";
+		grade = "A+";
 	} else if (avg >= 90){
-		score = "A";
+		grade = "A";
 	} else if (avg >= 85){
-		score = "B+";
+		grade = "B+";
 	} else if (avg >= 80){
-		score = "B";
+		grade = "B";
 	} else{
-		score = "F";
+		grade = "F";
 	}
 	
 	 %>
@@ -70,7 +70,7 @@
 		</tr>
 		<tr>
 		<td>ÇÐÁ¡ : </td>
-		<td><strong><%=score %></strong></td>
+		<td><strong><%=grade %></strong></td>
 		</tr>
 		</table>
 	</form>

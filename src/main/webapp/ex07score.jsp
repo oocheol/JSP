@@ -8,6 +8,8 @@
 </head>
 <body>
 <%
+	request.setCharacterEncoding("EUC-KR");
+
 	String name = request.getParameter("name");
 	String java = request.getParameter("java");
 	String web = request.getParameter("web");
